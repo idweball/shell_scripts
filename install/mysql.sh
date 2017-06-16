@@ -124,5 +124,4 @@ EOF
 
 #MySQL服务注册
 yes|cp -a support-files/mysql.server /etc/init.d/mysqld
-
 exit ${E_SUCC}
