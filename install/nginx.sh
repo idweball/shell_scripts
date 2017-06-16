@@ -37,6 +37,7 @@ if `id ${NGX_USER} &>/dev/null`;then
 		fi
 	fi
 else
+	groupadd ${NGX_GROUP}
 	useradd ${NGX_USER} -g ${NGX_GROUP} -s /sbin/nologin -M
 fi
 

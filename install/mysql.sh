@@ -49,7 +49,7 @@ if `id ${MYSQL_USER} &>/dev/null`;then
 	fi
 else
     groupadd ${MYSQL_GROUP}
-	useradd ${MYSQL_USER}  -g ${MYSQL_GROUP} -s /sbin/nologin -M
+    useradd ${MYSQL_USER}  -g ${MYSQL_GROUP} -s /sbin/nologin -M
 fi
 
 #基本工具初始化
