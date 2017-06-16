@@ -17,8 +17,8 @@ fi
 WORK_DOR="${PWD}"
 
 #安装依赖
-yum install -y epel-release || exit ${E_INSTALL_WRONG}
 yum groupinstall -y "Additioanl Development" "Development tools"
+yum install -y epel-release || exit ${E_INSTALL_WRONG}
 yum install -y wget mhash libjpeg-devel libmcrypt-devel  openssl-devel 
 
 #软件包存放目录

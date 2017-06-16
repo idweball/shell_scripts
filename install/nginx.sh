@@ -42,8 +42,8 @@ else
 fi
 
 #开发环境及依赖的软件包安装
-yum install -y epel-release || exit ${E_INSTALL_WRONG}
 yum groupinstall -y "Additional Development" "Development tools"
+yum install -y epel-release || exit ${E_INSTALL_WRONG}
 yum install -y openssl-devel pcre-devel wget
 
 #下载Nginx软件包，并解压
