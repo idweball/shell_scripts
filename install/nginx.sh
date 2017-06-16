@@ -122,5 +122,4 @@ echo "Nginx 安装成功"
 echo "Nginx 安装路径:${NGX_PREFIX}"
 echo "Nginx deamon用户:${NGX_USER}"
 echo "Nginx deamon组:${NGX_GROUP}"
-
 exit ${E_SUCC}
