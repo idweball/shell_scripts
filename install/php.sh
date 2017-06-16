@@ -145,4 +145,7 @@ yes | cp  php.ini-production  ${PHP_PREFIX}/lib/php.ini
 cd ${PHP_PREFIX}/etc
 yes | cp php-fpm.conf.default php-fpm.conf
 
+clear
+echo "PHP 安装完成"
+
 exit ${E_SUCC}
