@@ -9,7 +9,7 @@ done
 
 #将部分服务，在级别3开机自启
 ex_serv_list="crond sshd network iptables rsyslog auditd"
-for i in ex_serv_list;do
+for i in ${ex_serv_list};do
     chkconfig --level 3 $i on
 done 
 
