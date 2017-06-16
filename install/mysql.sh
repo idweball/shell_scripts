@@ -124,4 +124,7 @@ EOF
 
 #MySQL服务注册
 yes|cp -a support-files/mysql.server /etc/init.d/mysqld
+
+echo "MySQL 安装完成"
+echo "安装路径：${MYSQL_PREFIX}"
 exit ${E_SUCC}
