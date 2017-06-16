@@ -71,8 +71,8 @@ done
 
 #PHP安装
 cd ${WORK_DIR}
-PHP_DWONLOAD_URL="http://mirrors.sohu.com/php/php-5.6.16.tar.gz"
-wget ${PHP_DWONLOAD_URL} -P ${SRC_DIR}
+PHP_DOWNLOAD_URL="http://mirrors.sohu.com/php/php-5.6.16.tar.gz"
+wget ${PHP_DOWNLOAD_URL} -P ${SRC_DIR}
 if [ $? -ne 0 ];then
     clear
     echo "PHP软件包下载失败"
